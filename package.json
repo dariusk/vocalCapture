@@ -32,7 +32,8 @@
     "request": "~2.27.0",
     "cheerio": "~0.12.2",
     "microphone": "~1.0.5",
-    "keypress": "~0.2.1"
+    "keypress": "~0.2.1",
+    "markov": "0.0.7"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",

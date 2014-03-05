@@ -5,9 +5,7 @@
 //var inflection = require('inflection');
 //var wordfilter = require('wordfilter');
 var mic = require('microphone');
-var keypress = require('keypress');
 var fs = require('fs');
-keypress(process.stdin);
 var c = 0;
 // PCM wav header
 var header = new Buffer([
@@ -23,8 +21,7 @@ Array.prototype.pickRemove = function() {
   return this.splice(index,1)[0];
 };
 
-var words = ['test', 'apple', 'orange'];
-
+var words = ['account','begin'];
 function generate() {
   if (c < words.length) {
     console.log(words[c]);
